@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+
+    #nav-bar .avatar {
+        display: none;
+    }
+
+    .navbar-nav {
+        justify-content: flex-start;
+    }
+
+    #nav-bar .nav-link {
+        border: none !important;
+    }
+
+    #job-info .columns {
+        columns: 1;
+    }
+
+    .certificate-item:nth-child(1) {
+        border-right: none;
+    }
+    
+    #footer .text {
+        display: none;
+    }
+
+    #footer .icon {
+        font-size: 2rem;
+    }
+    
+}

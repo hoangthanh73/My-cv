@@ -1,0 +1,35 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+:root {
+    --primary-color: #c92a2a;
+    --gray-color: #343a40;
+    --border-color: #dee2e6;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    color: var(--gray-color);
+    line-height: 1;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 48px;
+    line-height: 1;
+}
+
+.date-bground {
+    color: #fff;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,18 @@
+@media (max-width: 992px) and (min-width: 768px) {
+    #nav-bar .avatar {
+        display: none;
+    }
+
+
+    #job-info div.columns {
+        columns: 2;
+    }
+
+    #certificate .certificate-item {
+        flex-direction: column;
+    }
+
+    #project .info {
+        flex-direction: column;
+    }
+}
